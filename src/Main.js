@@ -1,6 +1,6 @@
 import React from 'react';
-import OutputComponent from "./components/OutputComponent";
-import InputComonent from "./components/InputComponent";
+import OutputCmp from "./components/OutputCmp";
+import InputCmp from "./components/InputCmp";
 
 export default class MainComponent extends React.Component {
 	constructor(props) {
@@ -11,8 +11,8 @@ export default class MainComponent extends React.Component {
 	render() {
 	  return(
 	  	<div>
-	      <InputComonent />
-		   <OutputComponent text={this.state.name} />
+	      <InputCmp />
+		   <OutputCmp text={this.state.name} />
 	  	</div>
 	  );
 	}

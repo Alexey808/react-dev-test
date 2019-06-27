@@ -1,3 +1,7 @@
 h1, p {
   font-family: Lato;
 }
+
+.elem {
+    color: #666666;
+}
